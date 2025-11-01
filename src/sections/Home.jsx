@@ -1,8 +1,4 @@
-
 import profileImg from "../assets/profileImg.jpg";
-import { FiDownload } from "react-icons/fi";
-import resume from "../assets/resume.pdf";
-
 import TypewriterLoop from "../Ui/TypewriterLoop";
 
 function Home() {
@@ -38,7 +34,25 @@ function Home() {
           >
             Contact Me
           </a>
+         
           <a
+            className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1   hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]  font-medium transition relative overflow-hidden"
+            href="#projects"
+          >
+            Projects
+          </a>
+
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Home;
+
+
+
+        /*  <a
             className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6 rounded hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]  font-medium transition relative overflow-hidden "
             href={resume}
             download
@@ -48,11 +62,9 @@ function Home() {
               <FiDownload />
             </span>
           </a>
-        </div>
-      </div>
-    </section>
-  );
-}
 
-export default Home;
+          import { FiDownload } from "react-icons/fi";
+          import resume from "../assets/resume.pdf"; */
 
+
+          
