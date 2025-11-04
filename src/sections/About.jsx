@@ -15,7 +15,7 @@ function About() {
     "Angular",
     "Node Js",
     "Python",
-    "Flask",
+    "MongoDB",
     "Vercel",
     "Netlify",
     "Copilot",
